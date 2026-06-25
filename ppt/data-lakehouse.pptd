@@ -1,0 +1,51 @@
+title: Data Lakehouse Platform - Indonesia Demographics & Economy
+size: [1280, 720]
+theme:
+  colors:
+    primary: "#1B4D3E"
+    secondary: "#6B7B6E"
+    accent: "#C49A3B"
+    background: "#F5F5F0"
+    surface: "#E8E8E0"
+    text: "#1A1A1A"
+  textStyles:
+    title:
+      fontSize: 40
+      color: "$primary"
+      fontFamily: "QuattrocentoSans, MiSans"
+      fontStyle: normal
+      lineHeight: 1.2
+    subtitle:
+      fontSize: 22
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans, MiSans"
+      lineHeight: 1.3
+    body:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans, MiSans"
+      lineHeight: 1.6
+    caption:
+      fontSize: 12
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans, MiSans"
+      lineHeight: 1.4
+  tableStyles:
+    default:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans, MiSans"
+      headerFill: "$primary"
+      headerColor: "#FFFFFF"
+      headerBold: true
+      bodyFill: ["$background", "$surface"]
+      bodyColor: "$text"
+      border:
+        style: solid
+        width: 1
+        color: "$secondary"
+pages:
+  - pages/cover.page
+  - pages/rencana_analisis.page
+  - pages/sumber_data.page
+  - pages/arsitektur.page
+  - pages/closing.page

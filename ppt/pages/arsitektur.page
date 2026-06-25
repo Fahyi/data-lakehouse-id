@@ -1,0 +1,253 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-line
+    elementType: shape
+    bounds: [0, 0, 1280, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: page-label
+    elementType: text
+    bounds: [60, 16, 200, 20]
+    content:
+      style: "$caption"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>ARSITEKTUR SOLUSI</p>
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 700, 40]
+    content:
+      style: "$title"
+      fontSize: 28
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Arsitektur Medallion</strong></p>
+  - elementId: title-underline
+    elementType: shape
+    bounds: [60, 96, 80, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: bronze-box
+    elementType: shape
+    bounds: [60, 130, 340, 200]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#B87333"
+    opacity: 0.15
+    border:
+      style: solid
+      width: 2
+      color: "#B87333"
+  - elementId: bronze-icon
+    elementType: icon
+    bounds: [80, 150, 32, 32]
+    iconName: "fas:database"
+    fill:
+      type: solid
+      color: "#B87333"
+  - elementId: bronze-title
+    elementType: text
+    bounds: [122, 150, 258, 32]
+    content:
+      fontSize: 20
+      color: "#B87333"
+      fontFamily: "QuattrocentoSans, MiSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Bronze Layer</strong></p>
+  - elementId: bronze-text
+    elementType: text
+    bounds: [80, 195, 300, 120]
+    content:
+      fontSize: 15
+      color: "$text"
+      fontFamily: "QuattrocentoSans, MiSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Data mentah (CSV) dari sumber asli:</p>
+        <ul>
+        <li>WikiData SPARQL</li>
+        <li>BPS PDRB & Populasi</li>
+        <li>Metadata audit</li>
+        </ul>
+  - elementId: arrow1
+    elementType: shape
+    bounds: [400, 220, 60, 0]
+    shapeName: straightConnector1
+    arrow: [null, "arrow"]
+    border:
+      style: solid
+      width: 2
+      color: "$secondary"
+  - elementId: silver-box
+    elementType: shape
+    bounds: [460, 130, 340, 200]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#C0C0C0"
+    opacity: 0.2
+    border:
+      style: solid
+      width: 2
+      color: "#808080"
+  - elementId: silver-icon
+    elementType: icon
+    bounds: [480, 150, 32, 32]
+    iconName: "fas:filter"
+    fill:
+      type: solid
+      color: "#808080"
+  - elementId: silver-title
+    elementType: text
+    bounds: [522, 150, 258, 32]
+    content:
+      fontSize: 20
+      color: "#808080"
+      fontFamily: "QuattrocentoSans, MiSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Silver Layer</strong></p>
+  - elementId: silver-text
+    elementType: text
+    bounds: [480, 195, 300, 120]
+    content:
+      fontSize: 15
+      color: "$text"
+      fontFamily: "QuattrocentoSans, MiSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Data bersih & terstandardisasi:</p>
+        <ul>
+        <li>Format Parquet</li>
+        <li>Delta Log versioning</li>
+        <li>Quality checks</li>
+        </ul>
+  - elementId: arrow2
+    elementType: shape
+    bounds: [800, 220, 60, 0]
+    shapeName: straightConnector1
+    arrow: [null, "arrow"]
+    border:
+      style: solid
+      width: 2
+      color: "$secondary"
+  - elementId: gold-box
+    elementType: shape
+    bounds: [860, 130, 360, 200]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#C49A3B"
+    opacity: 0.15
+    border:
+      style: solid
+      width: 2
+      color: "#C49A3B"
+  - elementId: gold-icon
+    elementType: icon
+    bounds: [880, 150, 32, 32]
+    iconName: "fas:star"
+    fill:
+      type: solid
+      color: "#C49A3B"
+  - elementId: gold-title
+    elementType: text
+    bounds: [922, 150, 278, 32]
+    content:
+      fontSize: 20
+      color: "#C49A3B"
+      fontFamily: "QuattrocentoSans, MiSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Gold Layer</strong></p>
+  - elementId: gold-text
+    elementType: text
+    bounds: [880, 195, 320, 120]
+    content:
+      fontSize: 15
+      color: "$text"
+      fontFamily: "QuattrocentoSans, MiSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Data modeling analitik:</p>
+        <ul>
+        <li>Star Schema</li>
+        <li>Analytics-ready</li>
+        <li>Query optimization</li>
+        </ul>
+  - elementId: tech-bar
+    elementType: shape
+    bounds: [60, 360, 1160, 50]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.08
+  - elementId: tech-text
+    elementType: text
+    bounds: [60, 360, 1160, 50]
+    content:
+      fontSize: 16
+      color: "$primary"
+      fontFamily: "QuattrocentoSans, MiSans"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>Teknologi:</strong> MinIO (Object Storage) + DuckDB (Compute Engine) + Docker Compose</p>
+  - elementId: bonus-title
+    elementType: text
+    bounds: [60, 430, 300, 30]
+    content:
+      style: "$subtitle"
+      fontSize: 18
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Fitur Tambahan:</strong></p>
+  - elementId: bonus-list
+    elementType: text
+    bounds: [60, 470, 1160, 130]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p><strong>1. Custom Metadata (+5%):</strong> Ingestion timestamp, operator_id, manifest JSON untuk audit</p>
+        <p><strong>2. Format Comparison (+5%):</strong> Bukti keunggulan kompresi Parquet vs CSV</p>
+        <p><strong>3. Query Explanation (+5%):</strong> Analisis Query Plan DuckDB — Filter Pushdown & Projection Pushdown</p>
+  - elementId: bottom-bar
+    elementType: shape
+    bounds: [0, 710, 1280, 10]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.1
+  - elementId: page-number
+    elementType: text
+    bounds: [1200, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>04</p>

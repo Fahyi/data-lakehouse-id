@@ -1,0 +1,1432 @@
+{
+  "status": "OK",
+  "data-availability": "available",
+  "data": [
+    {
+      "page": 1,
+      "pages": 1,
+      "per_page": 1,
+      "count": 1,
+      "total": 1
+    },
+    {
+      "change_log": [],
+      "judul_tabel": "Penduduk, Laju Pertumbuhan Penduduk, Distribusi Persentase Penduduk, Kepadatan Penduduk, Rasio Jenis Kelamin Penduduk Menurut Provinsi, 2026",
+      "judul_tabel_en": "Population, Population Growth Rate, Percentage Distribution of Population, Population Density, and Population Sex Ratio by Province, 2026",
+      "lingkup": "Provinsi&lt;br&gt;&lt;i&gt;Province&lt;/i&gt;",
+      "lingkup_id": "Provinsi",
+      "lingkup_en": "Province",
+      "tahun_data": 2026,
+      "wilayah": "Indonesia",
+      "penanggung_jawab": "Subdirektorat Statistik Demografi",
+      "show_satuan": false,
+      "id_subject": "aVNwM3JTd21SUFZYTUpLOFJXSEphdz09",
+      "bab": "Penduduk dan Ketenagakerjaan",
+      "bab_en": "Population and Employment",
+      "subject": "Penduduk",
+      "subject_en": "Population",
+      "mms_id": 519,
+      "mms_subject": "Kependudukan dan Migrasi",
+      "keterangan_data": {
+        "...": "Data tidak tersedia",
+        "\u2013": "Tidak ada atau nol",
+        "NA": "Data tidak dapat ditampilkan",
+        "e": "Angka estimasi",
+        "r": "Angka diperbaiki",
+        "~0": "Data dapat diabaikan",
+        "*": "Angka sementara",
+        "**": "Angka sangat sementara",
+        "***": "Angka sangat sangat sementara",
+        "a": "25% &#60; RSE &#8804; 50%"
+      },
+      "kolom": {
+        "nzudy5elv7": {
+          "nama_variabel": "Jumlah Penduduk",
+          "nama_variabel_en": "Population",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 1,
+          "unit_multiplier": 3,
+          "unit_multiplier_desc": "ribu",
+          "unit_multiplier_desc_en": "thousand",
+          "metadata_indikator": "Jumlah Penduduk",
+          "metadata_konsep_definisi": "&lt;p&gt;Banyaknya penduduk yang bertempat tinggal tetap, dicacah dimana mereka biasanya bertempat tinggal.&lt;br/&gt;Penduduk yang sedang bepergian ke wilayah lain selama 1 (satu) tahun atau lebih, atau yang telah berada pada suatu tempat tinggal selama 1 (satu) tahun atau lebih, dicacah dimana mereka tinggal pada saat pencacahan.&lt;/p&gt;",
+          "metadata_kegunaan": "&lt;p&gt;- Memperkirakan berbagai parameter kependudukan sampai wilayah administrasi tertentu.\r&lt;br&gt;- Mengumpulkan informasi kependudukan yang dapat digunakan/dimanfaatkan untuk penyusunan basis data kependudukan.\r&lt;br&gt;&lt;/p&gt;",
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": null,
+          "metadata_rumusan": [
+            "https://sirusa.bps.go.id/webadmin/indikator/Jumlah_Penduduk.jpg"
+          ],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        },
+        "d8efayjxld": {
+          "nama_variabel": "Laju Pertumbuhan Penduduk per Tahun",
+          "nama_variabel_en": "Population Growth Rate",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 2,
+          "metadata_indikator": "Laju Pertumbuhan Penduduk",
+          "metadata_konsep_definisi": "&lt;p&gt;Angka\u00a0 yang\u00a0 menunjukan\u00a0 tingkat\u00a0pertambahan\u00a0 penduduk\u00a0 pertahun dalam\u00a0jangka\u00a0waktu\u00a0tertentu.\u00a0Angka\u00a0ini\u00a0dinyatakan\u00a0 sebagai\u00a0 persentase\u00a0 dari\u00a0penduduk\u00a0dasar.\u00a0&lt;br&gt;Laju\u00a0 pertumbuhan\u00a0 penduduk\u00a0 dapat\u00a0dihitung\u00a0 menggunakan\u00a0tiga\u00a0 metode,\u00a0 yaitu\u00a0aritmatik,\u00a0 geometrik,\u00a0 dan\u00a0 eksponesial.\u00a0Metode\u00a0 yang\u00a0 paling\u00a0 sering\u00a0 digunakan\u00a0 di\u00a0BPS\u00a0adalah\u00a0metode\u00a0geometrik.\u00a0&lt;/p&gt;",
+          "metadata_kegunaan": "&lt;p&gt;Untuk\u00a0 mengetahui\u00a0 perubahan jumlah\u00a0penduduk\u00a0antar\u00a0dua\u00a0periode\u00a0waktu.\u00a0&lt;/p&gt;",
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": "&lt;p&gt;a. LPP\u00a0 &gt;\u00a0 0\u00a0 berarti\u00a0 terjadi\u00a0 penambahanpenduduk.pada\u00a0 tahun\u00a0 t\u00a0dibandingkan\u00a0 dengan\u00a0 tahun\u00a0sebelumnya.\u00a0&lt;br&gt;b. LPP\u00a0 &#x3D;\u00a0 0\u00a0 berarti\u00a0 tidak\u00a0 terjadiperubahan\u00a0 jumlah\u00a0 penduduk\u00a0 padatahun\u00a0 t\u00a0 dibandingkan\u00a0 dengan\u00a0 tahun\u00a0sebelumnya.\u00a0&lt;br&gt;c. Pt,0 &lt;\u00a0100\u00a0berarti\u00a0terjadi\u00a0pengurangan\u00a0jumlah\u00a0 penduduk\u00a0 pada\u00a0 tahun\u00a0 t\u00a0dibandingkan\u00a0 dengan\u00a0tahun\u00a0sebelumnya.\u00a0&lt;br&gt;&lt;/p&gt;",
+          "metadata_rumusan": [
+            "https://sirusa.bps.go.id/webadmin/indikator/laju pertumbuhan penduduk.jpg"
+          ],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        },
+        "efg2cjrdn2": {
+          "nama_variabel": "Persentase Penduduk",
+          "nama_variabel_en": "Percentage of Total Population",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 2,
+          "metadata_indikator": null,
+          "metadata_konsep_definisi": null,
+          "metadata_kegunaan": null,
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": null,
+          "metadata_rumusan": [],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        },
+        "xauol4vjpj": {
+          "nama_variabel": "Kepadatan Penduduk per km persegi",
+          "nama_variabel_en": "Population Density per sq.km",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 0,
+          "satuan": "km<sup>2</sup>",
+          "satuan_en": "km<sup>2</sup>",
+          "metadata_indikator": "Kepadatan Penduduk",
+          "metadata_konsep_definisi": "&lt;p&gt;Kepadatan\u00a0 penduduk\u00a0 dibagi\u00a0 menjadi\u00a0 3\u00a0jenis:\u00a0&lt;br&gt;a. Kepadatan\u00a0 Penduduk\u00a0 Kasar\u00a0 (Crude\u00a0Population\u00a0 Density),\u00a0 yaitu\u00a0menunjukkan\u00a0 banyaknya\u00a0 jumlah\u00a0 penduduk\u00a0 untuk\u00a0 setiap\u00a0 kilometer\u00a0persegi\u00a0luas\u00a0wilayah.\u00a0&lt;br&gt;b.Kepadatan\u00a0 Fisiologis\u00a0 (Physiological\u00a0Density),\u00a0 yang\u00a0 menyatakan\u00a0banyaknya\u00a0 penduduk\u00a0 untuk\u00a0 setiap\u00a0kilometer\u00a0 persegi\u00a0 wilayah\u00a0 lahan\u00a0yang\u00a0ditanami\u00a0(cultivable\u00a0land).\u00a0&lt;br&gt;c. Kepadatan\u00a0 Agraris\u00a0 (Agriculture\u00a0Density),\u00a0 menunjukkan\u00a0 banyaknya\u00a0penduduk\u00a0 petani\u00a0 untuk\u00a0 setiap\u00a0kilometer\u00a0 persegi\u00a0 wilayah\u00a0 cultivable\u00a0land.\u00a0 Ukuran\u00a0 ini\u00a0 menggambarkan\u00a0intensitas\u00a0 pertanian\u00a0 dari\u00a0 petani\u00a0terhadap\u00a0 lahan\u00a0 yang\u00a0 mencerminkan\u00a0efisiensi\u00a0 teknologi\u00a0 pertanian\u00a0 dan\u00a0intensitas\u00a0tenaga\u00a0kerja\u00a0pertanian.\u00a0&lt;br&gt;&lt;br&gt;Kepadatan\u00a0 penduduk\u00a0 kasar\u00a0 merupakan\u00a0ukuran\u00a0 persebaran\u00a0 penduduk\u00a0 yang\u00a0umum\u00a0 digunakan,\u00a0 karena\u00a0 selain\u00a0 data\u00a0dan\u00a0cara\u00a0 penghitungannya\u00a0 sederhana,\u00a0 ukuran\u00a0ini\u00a0 sudah\u00a0 distandarisasi\u00a0 dengan\u00a0 luas\u00a0wilayah.\u00a0&lt;/p&gt;",
+          "metadata_kegunaan": "&lt;p&gt;a.Untuk\u00a0 mengetahui konsentrasi\u00a0penduduk\u00a0di\u00a0suatu\u00a0wilayah.\u00a0&lt;br&gt;b.Digunakan\u00a0 sebagai\u00a0 acuan\u00a0 dalam\u00a0rangka\u00a0 mewujudkan\u00a0 pemerataan\u00a0dan\u00a0 persebaran\u00a0 penduduk\u00a0 (program\u00a0transmigrasi).\u00a0&lt;br&gt;&lt;/p&gt;",
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": "&lt;p&gt;Angka kepadatan penduduk menunjukan rata-rata jumlah penduduk tiap 1 kilometer persegi. Semakin besar angka kepadatan penduduk menunjukan bahwa semakin padat penduduk yang mendiami wilayah tersebut. Misalnya kepadatan penduduk Indonesia tahun 2009 sebesar 124 artinya bahwa secara rata-rata tiap 1 kilometer persegi wilayah di Indonesia didiami oleh 124 penduduk&lt;/p&gt;",
+          "metadata_rumusan": [
+            "https://sirusa.bps.go.id/webadmin/indikator/Kepadatan penduduk.jpg"
+          ],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        },
+        "ztxhjlhyqd": {
+          "nama_variabel": "Rasio Jenis Kelamin Penduduk",
+          "nama_variabel_en": "Population Sex Ratio",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 1,
+          "metadata_indikator": "Rasio Jenis Kelamin",
+          "metadata_konsep_definisi": "&lt;p&gt;Rasio\u00a0 jenis\u00a0 kelamin\u00a0 adalah\u00a0 perbandingan\u00a0antara\u00a0 jumlah\u00a0 penduduk\u00a0 pria\u00a0 dan\u00a0 jumlah\u00a0penduduk\u00a0 wanita\u00a0 pada\u00a0 suatu\u00a0 daerah\u00a0 dan\u00a0pada\u00a0 waktu\u00a0 tertentu,\u00a0 yang\u00a0 biasanya\u00a0dinyatakan\u00a0 dalam\u00a0 banyaknya\u00a0 penduduk\u00a0pria\u00a0per\u00a0100\u00a0wanita.\u00a0&lt;/p&gt;",
+          "metadata_kegunaan": "&lt;p&gt;Data\u00a0 mengenai\u00a0 rasio\u00a0 jenis\u00a0 kelamin\u00a0berguna\u00a0 untuk\u00a0 pengembangan\u00a0perencanaan\u00a0 pembangunan\u00a0 yang\u00a0berwawasan\u00a0 gender,\u00a0 terutama\u00a0 yang\u00a0berkaitan\u00a0 dengan\u00a0 perimbangan\u00a0pembangunan\u00a0 laki-laki\u00a0 dan\u00a0 perempuan\u00a0secara\u00a0 adil.\u00a0 Misalnya,\u00a0 karena\u00a0 adat\u00a0 dan\u00a0kebiasaan\u00a0 jaman\u00a0 dulu\u00a0 yang\u00a0 lebih\u00a0mengutamakan\u00a0 pendidikan\u00a0 laki-laki\u00a0dibanding\u00a0 perempuan,\u00a0 maka\u00a0pengembangan\u00a0 pendidikan\u00a0 berwawasan\u00a0gender\u00a0 harus\u00a0 memperhitungkan\u00a0 kedua\u00a0jenis\u00a0 kelamin\u00a0 dengan\u00a0mengetahui\u00a0 berapa\u00a0banyaknya\u00a0 laki-laki\u00a0 dan\u00a0 perempuan\u00a0dalam\u00a0 umur\u00a0 yang\u00a0 sama.\u00a0 Informasi\u00a0tentang\u00a0 rasio\u00a0 jenis\u00a0 kelamin\u00a0 juga\u00a0 penting\u00a0diketahui\u00a0 oleh\u00a0 para\u00a0 politisi,\u00a0 terutama\u00a0untuk\u00a0 meningkatkan\u00a0 keterwakilan\u00a0perempuan\u00a0dalam\u00a0parlemen.&lt;/p&gt;",
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": "&lt;p&gt;a. SR\u00a0 &gt;\u00a0 100\u00a0 berarti\u00a0 jumlah\u00a0 penduduk\u00a0laki-laki\u00a0 lebih\u00a0 banyak\u00a0 dibandingkan\u00a0dengan\u00a0 jumlah\u00a0 penduduk\u00a0perempuan.\u00a0&lt;br&gt;b. SR\u00a0 &#x3D;\u00a0 100\u00a0 berarti\u00a0 jumlah\u00a0 penduduk\u00a0laki-laki\u00a0 sama\u00a0 dengan\u00a0 jumlah penduduk\u00a0perempuan.\u00a0&lt;br&gt;c. SR\u00a0 &lt;\u00a0 100\u00a0 berarti\u00a0 jumlah\u00a0 penduduk\u00a0perempuan\u00a0 lebih\u00a0 banyak\u00a0dibandingkan\u00a0 dengan\u00a0 jumlah\u00a0penduduk\u00a0laki-laki.\u00a0&lt;/p&gt;",
+          "metadata_rumusan": [
+            "https://sirusa.bps.go.id/webadmin/indikator/rasio jenis kelamin.jpg"
+          ],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        }
+      },
+      "data": [
+        {
+          "label": "Aceh",
+          "label_raw": "Aceh",
+          "satuan": null,
+          "kode_wilayah": 1100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "5.695,9",
+              "value_raw": "5.695,9",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,34",
+              "value_raw": "1,34",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,98",
+              "value_raw": "1,98",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "100",
+              "value_raw": "100",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "100,9",
+              "value_raw": "100,9",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sumatera Utara",
+          "label_raw": "Sumatera Utara",
+          "satuan": null,
+          "kode_wilayah": 1200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "15.978,6",
+              "value_raw": "15.978,6",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,34",
+              "value_raw": "1,34",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "5,56",
+              "value_raw": "5,56",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "221",
+              "value_raw": "221",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "100,8",
+              "value_raw": "100,8",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sumatera Barat",
+          "label_raw": "Sumatera Barat",
+          "satuan": null,
+          "kode_wilayah": 1300000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "5.991,6",
+              "value_raw": "5.991,6",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,39",
+              "value_raw": "1,39",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "2,09",
+              "value_raw": "2,09",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "142",
+              "value_raw": "142",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "101,5",
+              "value_raw": "101,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Riau",
+          "label_raw": "Riau",
+          "satuan": null,
+          "kode_wilayah": 1400000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "6.892,4",
+              "value_raw": "6.892,4",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,31",
+              "value_raw": "1,31",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "2,40",
+              "value_raw": "2,40",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "77",
+              "value_raw": "77",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "104,1",
+              "value_raw": "104,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jambi",
+          "label_raw": "Jambi",
+          "satuan": null,
+          "kode_wilayah": 1500000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "3.811,7",
+              "value_raw": "3.811,7",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,25",
+              "value_raw": "1,25",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,33",
+              "value_raw": "1,33",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "78",
+              "value_raw": "78",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "103,0",
+              "value_raw": "103,0",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sumatera Selatan",
+          "label_raw": "Sumatera Selatan",
+          "satuan": null,
+          "kode_wilayah": 1600000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "9.017,1",
+              "value_raw": "9.017,1",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,10",
+              "value_raw": "1,10",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "3,14",
+              "value_raw": "3,14",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "104",
+              "value_raw": "104",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "103,4",
+              "value_raw": "103,4",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Bengkulu",
+          "label_raw": "Bengkulu",
+          "satuan": null,
+          "kode_wilayah": 1700000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "2.163,3",
+              "value_raw": "2.163,3",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,28",
+              "value_raw": "1,28",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,75",
+              "value_raw": "0,75",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "108",
+              "value_raw": "108",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "104,1",
+              "value_raw": "104,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Lampung",
+          "label_raw": "Lampung",
+          "satuan": null,
+          "kode_wilayah": 1800000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "9.623,8",
+              "value_raw": "9.623,8",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,16",
+              "value_raw": "1,16",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "3,35",
+              "value_raw": "3,35",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "287",
+              "value_raw": "287",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "103,9",
+              "value_raw": "103,9",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kepulauan Bangka Belitung",
+          "label_raw": "Kepulauan Bangka Belitung",
+          "satuan": null,
+          "kode_wilayah": 1900000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.569,7",
+              "value_raw": "1.569,7",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,32",
+              "value_raw": "1,32",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,55",
+              "value_raw": "0,55",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "94",
+              "value_raw": "94",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "105,0",
+              "value_raw": "105,0",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kepulauan Riau",
+          "label_raw": "Kepulauan Riau",
+          "satuan": null,
+          "kode_wilayah": 2100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "2.243,1",
+              "value_raw": "2.243,1",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,45",
+              "value_raw": "1,45",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,78",
+              "value_raw": "0,78",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "275",
+              "value_raw": "275",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "102,9",
+              "value_raw": "102,9",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "DKI Jakarta",
+          "label_raw": "DKI Jakarta",
+          "satuan": null,
+          "kode_wilayah": 3100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "10.669,7",
+              "value_raw": "10.669,7",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "0,18",
+              "value_raw": "0,18",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "3,72",
+              "value_raw": "3,72",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "16.129",
+              "value_raw": "16.129",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "100,5",
+              "value_raw": "100,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jawa Barat",
+          "label_raw": "Jawa Barat",
+          "satuan": null,
+          "kode_wilayah": 3200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "51.163,9",
+              "value_raw": "51.163,9",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,02",
+              "value_raw": "1,02",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "17,81",
+              "value_raw": "17,81",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "1.381",
+              "value_raw": "1.381",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "102,3",
+              "value_raw": "102,3",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jawa Tengah",
+          "label_raw": "Jawa Tengah",
+          "satuan": null,
+          "kode_wilayah": 3300000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "38.565,0",
+              "value_raw": "38.565,0",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "0,95",
+              "value_raw": "0,95",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "13,43",
+              "value_raw": "13,43",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "1.123",
+              "value_raw": "1.123",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "100,8",
+              "value_raw": "100,8",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "DI Yogyakarta",
+          "label_raw": "DI Yogyakarta",
+          "satuan": null,
+          "kode_wilayah": 3400000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "3.802,7",
+              "value_raw": "3.802,7",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "0,63",
+              "value_raw": "0,63",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,32",
+              "value_raw": "1,32",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "1.199",
+              "value_raw": "1.199",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "97,7",
+              "value_raw": "97,7",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jawa Timur",
+          "label_raw": "Jawa Timur",
+          "satuan": null,
+          "kode_wilayah": 3500000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "42.352,0",
+              "value_raw": "42.352,0",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "0,71",
+              "value_raw": "0,71",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "14,75",
+              "value_raw": "14,75",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "881",
+              "value_raw": "881",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "99,3",
+              "value_raw": "99,3",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Banten",
+          "label_raw": "Banten",
+          "satuan": null,
+          "kode_wilayah": 3600000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "12.641,3",
+              "value_raw": "12.641,3",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,05",
+              "value_raw": "1,05",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "4,40",
+              "value_raw": "4,40",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "1.351",
+              "value_raw": "1.351",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "103,1",
+              "value_raw": "103,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Bali",
+          "label_raw": "Bali",
+          "satuan": null,
+          "kode_wilayah": 5100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "4.488,2",
+              "value_raw": "4.488,2",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "0,68",
+              "value_raw": "0,68",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,56",
+              "value_raw": "1,56",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "804",
+              "value_raw": "804",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "100,2",
+              "value_raw": "100,2",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Nusa Tenggara Barat",
+          "label_raw": "Nusa Tenggara Barat",
+          "satuan": null,
+          "kode_wilayah": 5200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "5.815,3",
+              "value_raw": "5.815,3",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,56",
+              "value_raw": "1,56",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "2,02",
+              "value_raw": "2,02",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "296",
+              "value_raw": "296",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "101,2",
+              "value_raw": "101,2",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Nusa Tenggara Timur",
+          "label_raw": "Nusa Tenggara Timur",
+          "satuan": null,
+          "kode_wilayah": 5300000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "5.828,6",
+              "value_raw": "5.828,6",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,58",
+              "value_raw": "1,58",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "2,03",
+              "value_raw": "2,03",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "126",
+              "value_raw": "126",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "100,0",
+              "value_raw": "100,0",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kalimantan Barat",
+          "label_raw": "Kalimantan Barat",
+          "satuan": null,
+          "kode_wilayah": 6100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "5.835,0",
+              "value_raw": "5.835,0",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,31",
+              "value_raw": "1,31",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "2,03",
+              "value_raw": "2,03",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "40",
+              "value_raw": "40",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "105,1",
+              "value_raw": "105,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kalimantan Tengah",
+          "label_raw": "Kalimantan Tengah",
+          "satuan": null,
+          "kode_wilayah": 6200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "2.879,5",
+              "value_raw": "2.879,5",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,32",
+              "value_raw": "1,32",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,00",
+              "value_raw": "1,00",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "19",
+              "value_raw": "19",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "106,2",
+              "value_raw": "106,2",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kalimantan Selatan",
+          "label_raw": "Kalimantan Selatan",
+          "satuan": null,
+          "kode_wilayah": 6300000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "4.372,1",
+              "value_raw": "4.372,1",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,24",
+              "value_raw": "1,24",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,52",
+              "value_raw": "1,52",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "118",
+              "value_raw": "118",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "102,1",
+              "value_raw": "102,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kalimantan Timur",
+          "label_raw": "Kalimantan Timur",
+          "satuan": null,
+          "kode_wilayah": 6400000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "4.478,4",
+              "value_raw": "4.478,4",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "3,06",
+              "value_raw": "3,06",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,56",
+              "value_raw": "1,56",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "35",
+              "value_raw": "35",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "106,5",
+              "value_raw": "106,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kalimantan Utara",
+          "label_raw": "Kalimantan Utara",
+          "satuan": null,
+          "kode_wilayah": 6500000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "758,8",
+              "value_raw": "758,8",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,37",
+              "value_raw": "1,37",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,26",
+              "value_raw": "0,26",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "11",
+              "value_raw": "11",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "110,0",
+              "value_raw": "110,0",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sulawesi Utara",
+          "label_raw": "Sulawesi Utara",
+          "satuan": null,
+          "kode_wilayah": 7100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "2.740,5",
+              "value_raw": "2.740,5",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "0,77",
+              "value_raw": "0,77",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,95",
+              "value_raw": "0,95",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "189",
+              "value_raw": "189",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "104,0",
+              "value_raw": "104,0",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sulawesi Tengah",
+          "label_raw": "Sulawesi Tengah",
+          "satuan": null,
+          "kode_wilayah": 7200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "3.189,8",
+              "value_raw": "3.189,8",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,16",
+              "value_raw": "1,16",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,11",
+              "value_raw": "1,11",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "52",
+              "value_raw": "52",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "105,0",
+              "value_raw": "105,0",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sulawesi Selatan",
+          "label_raw": "Sulawesi Selatan",
+          "satuan": null,
+          "kode_wilayah": 7300000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "9.661,3",
+              "value_raw": "9.661,3",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,10",
+              "value_raw": "1,10",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "3,36",
+              "value_raw": "3,36",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "213",
+              "value_raw": "213",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "98,8",
+              "value_raw": "98,8",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sulawesi Tenggara",
+          "label_raw": "Sulawesi Tenggara",
+          "satuan": null,
+          "kode_wilayah": 7400000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "2.880,0",
+              "value_raw": "2.880,0",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,63",
+              "value_raw": "1,63",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "1,00",
+              "value_raw": "1,00",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "80",
+              "value_raw": "80",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "102,5",
+              "value_raw": "102,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Gorontalo",
+          "label_raw": "Gorontalo",
+          "satuan": null,
+          "kode_wilayah": 7500000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.256,4",
+              "value_raw": "1.256,4",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,22",
+              "value_raw": "1,22",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,44",
+              "value_raw": "0,44",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "104",
+              "value_raw": "104",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "101,5",
+              "value_raw": "101,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sulawesi Barat",
+          "label_raw": "Sulawesi Barat",
+          "satuan": null,
+          "kode_wilayah": 7600000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.547,4",
+              "value_raw": "1.547,4",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,51",
+              "value_raw": "1,51",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,54",
+              "value_raw": "0,54",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "93",
+              "value_raw": "93",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "102,6",
+              "value_raw": "102,6",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Maluku",
+          "label_raw": "Maluku",
+          "satuan": null,
+          "kode_wilayah": 8100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.995,2",
+              "value_raw": "1.995,2",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,33",
+              "value_raw": "1,33",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,69",
+              "value_raw": "0,69",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "43",
+              "value_raw": "43",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "102,2",
+              "value_raw": "102,2",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Maluku Utara",
+          "label_raw": "Maluku Utara",
+          "satuan": null,
+          "kode_wilayah": 8200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.391,7",
+              "value_raw": "1.391,7",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,43",
+              "value_raw": "1,43",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,48",
+              "value_raw": "0,48",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "44",
+              "value_raw": "44",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "105,1",
+              "value_raw": "105,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Papua Barat",
+          "label_raw": "Papua Barat",
+          "satuan": null,
+          "kode_wilayah": 9100000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "596,5",
+              "value_raw": "596,5",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,65",
+              "value_raw": "1,65",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,21",
+              "value_raw": "0,21",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "10",
+              "value_raw": "10",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "110,2",
+              "value_raw": "110,2",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Papua Barat Daya",
+          "label_raw": "Papua Barat Daya",
+          "satuan": null,
+          "kode_wilayah": 9200000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "645,5",
+              "value_raw": "645,5",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,55",
+              "value_raw": "1,55",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,22",
+              "value_raw": "0,22",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "17",
+              "value_raw": "17",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "108,1",
+              "value_raw": "108,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Papua",
+          "label_raw": "Papua",
+          "satuan": null,
+          "kode_wilayah": 9400000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.086,5",
+              "value_raw": "1.086,5",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,31",
+              "value_raw": "1,31",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,38",
+              "value_raw": "0,38",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "13",
+              "value_raw": "13",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "109,1",
+              "value_raw": "109,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Papua Selatan",
+          "label_raw": "Papua Selatan",
+          "satuan": null,
+          "kode_wilayah": 9500000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "557,2",
+              "value_raw": "557,2",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,43",
+              "value_raw": "1,43",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,19",
+              "value_raw": "0,19",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "5",
+              "value_raw": "5",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "107,5",
+              "value_raw": "107,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Papua Tengah",
+          "label_raw": "Papua Tengah",
+          "satuan": null,
+          "kode_wilayah": 9600000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.510,8",
+              "value_raw": "1.510,8",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,45",
+              "value_raw": "1,45",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,53",
+              "value_raw": "0,53",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "25",
+              "value_raw": "25",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "113,1",
+              "value_raw": "113,1",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Papua Pegunungan",
+          "label_raw": "Papua Pegunungan",
+          "satuan": null,
+          "kode_wilayah": 9700000,
+          "variables": {
+            "nzudy5elv7": {
+              "value": "1.501,9",
+              "value_raw": "1.501,9",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,34",
+              "value_raw": "1,34",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "0,52",
+              "value_raw": "0,52",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "29",
+              "value_raw": "29",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "113,5",
+              "value_raw": "113,5",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Indonesia",
+          "label_raw": "Indonesia",
+          "satuan": null,
+          "kode_wilayah": "0000000",
+          "variables": {
+            "nzudy5elv7": {
+              "value": "287.198,4",
+              "value_raw": "287.198,4",
+              "value_code": null
+            },
+            "d8efayjxld": {
+              "value": "1,07",
+              "value_raw": "1,07",
+              "value_code": null
+            },
+            "efg2cjrdn2": {
+              "value": "100,00",
+              "value_raw": "100,00",
+              "value_code": null
+            },
+            "xauol4vjpj": {
+              "value": "152",
+              "value_raw": "152",
+              "value_code": null
+            },
+            "ztxhjlhyqd": {
+              "value": "101,8",
+              "value_raw": "101,8",
+              "value_code": null
+            }
+          }
+        }
+      ],
+      "catatan": "&lt;p&gt;1Proyeksi Penduduk Indonesia 2020-2050 Hasil Sensus Penduduk 2020 (Pertengahan tahun/Juni)/ Indonesia Population Projection 2020-2050 Result of Population Census 2020 (mid year/June) 2Laju pertumbuhan penduduk dihitung berdasarkan penduduk tahun 2020 (September) dibandingkan dengan penduduk tahun 2025(Juni)/ The growth rate refers to the change of the population in 2020 (September) to the population in 2025 (June) 3Luas provinsi berdasarkan Keputusan Menteri Dalam Negeri Nomor 300.2.2-2430 Tahun 2025 tanggal 23 Juni 2025/Province area Based on Ministerial Decree of Home Affairs Number 300.2.2-2430, 23 June 2025 4 Laju pertumbuhan penduduk dihitung dengan menggunakan data dasar jumlah penduduk tahun 2020 yang merupakan penjumlahan dari kabupaten/kota pembentuk/ The Growth Rate calculated refers to total population 2020 is the sum of the forming regency/municipality\n&lt;br&gt;&lt;/p&gt;",
+      "sumber": "&lt;p&gt;Badan Pusat Statistik dan Kementerian Dalam Negeri/ BPS-Statistics Indonesia and Ministry of Home Affairs\n&lt;br&gt;&lt;/p&gt;",
+      "versi": 1,
+      "table_created": "2026-01-21 15:11:48",
+      "table_updated": "2026-02-06 11:11:29",
+      "status": 200,
+      "condition": "OK",
+      "message": "-",
+      "created": "2026-06-18 18:55:16"
+    }
+  ]
+}

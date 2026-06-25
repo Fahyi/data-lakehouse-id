@@ -1,0 +1,232 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-line
+    elementType: shape
+    bounds: [0, 0, 1280, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: page-label
+    elementType: text
+    bounds: [60, 16, 200, 20]
+    content:
+      style: "$caption"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>SUMBER DATA</p>
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 600, 40]
+    content:
+      style: "$title"
+      fontSize: 28
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Sumber Data</strong></p>
+  - elementId: title-underline
+    elementType: shape
+    bounds: [60, 96, 80, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: left-card-bg
+    elementType: shape
+    bounds: [60, 120, 560, 260]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$surface"
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: left-icon
+    elementType: icon
+    bounds: [80, 140, 40, 40]
+    iconName: "fab:wikipedia-w"
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: left-title
+    elementType: text
+    bounds: [132, 140, 468, 40]
+    content:
+      style: "$subtitle"
+      fontSize: 20
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>WikiData SPARQL API</strong></p>
+  - elementId: left-url
+    elementType: text
+    bounds: [80, 190, 520, 22]
+    content:
+      style: "$caption"
+      fontSize: 13
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><a href="https://query.wikidata.org/">https://query.wikidata.org/</a></p>
+  - elementId: left-content
+    elementType: text
+    bounds: [80, 225, 520, 130]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Data Referensi Provinsi:</strong></p>
+        <ul>
+        <li>Nama Provinsi, ISO Code</li>
+        <li>Luas Wilayah, Ibu Kota</li>
+        <li>Koordinat Geografis</li>
+        </ul>
+        <p style="margin-top:6px"><span style="color:$secondary;">Format: SPARQL Endpoint / JSON</span></p>
+  - elementId: left-screenshot-label
+    elementType: text
+    bounds: [60, 390, 200, 18]
+    content:
+      style: "$caption"
+      fontSize: 11
+      color: "$secondary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Screenshot: WikiData Query</p>
+  - elementId: left-screenshot
+    elementType: image
+    bounds: [60, 410, 560, 210]
+    src: "ppt/images/wikidata_query.png"
+    shapeName: roundRect
+    adjustments: [3000]
+    fit:
+      mode: cover
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: right-card-bg
+    elementType: shape
+    bounds: [660, 120, 560, 260]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$surface"
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: right-icon
+    elementType: icon
+    bounds: [680, 140, 40, 40]
+    iconName: "fas:chart-column"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: right-title
+    elementType: text
+    bounds: [732, 140, 468, 40]
+    content:
+      style: "$subtitle"
+      fontSize: 20
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Badan Pusat Statistik (BPS)</strong></p>
+  - elementId: right-url
+    elementType: text
+    bounds: [680, 190, 520, 22]
+    content:
+      style: "$caption"
+      fontSize: 13
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><a href="https://www.bps.go.id/">https://www.bps.go.id/</a></p>
+  - elementId: right-content
+    elementType: text
+    bounds: [680, 225, 520, 130]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Data Ekonomi & Demografi:</strong></p>
+        <ul>
+        <li>PDRB (Harga Berlaku & Konstan)</li>
+        <li>Populasi Penduduk per Provinsi</li>
+        <li>Periode: 2019 - 2023</li>
+        </ul>
+        <p style="margin-top:6px"><span style="color:$secondary;">Format: CSV / REST API</span></p>
+  - elementId: right-screenshot-label
+    elementType: text
+    bounds: [660, 390, 200, 18]
+    content:
+      style: "$caption"
+      fontSize: 11
+      color: "$secondary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Screenshot: BPS Homepage</p>
+  - elementId: right-screenshot
+    elementType: image
+    bounds: [660, 410, 560, 210]
+    src: "ppt/images/bps_homepage.png"
+    shapeName: roundRect
+    adjustments: [3000]
+    fit:
+      mode: cover
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: coverage-bar
+    elementType: shape
+    bounds: [60, 640, 1160, 30]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.08
+  - elementId: coverage-text
+    elementType: text
+    bounds: [60, 640, 1160, 30]
+    content:
+      style: "$body"
+      fontSize: 14
+      color: "$primary"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>Cakupan Data:</strong> 38 Provinsi Indonesia | 5 Tahun Historis (2019-2023) | ~190 Baris Populasi + ~190 Baris PDRB</p>
+  - elementId: bottom-bar
+    elementType: shape
+    bounds: [0, 710, 1280, 10]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.1
+  - elementId: page-number
+    elementType: text
+    bounds: [1200, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>03</p>

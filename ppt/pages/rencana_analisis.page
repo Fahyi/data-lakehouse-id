@@ -1,0 +1,180 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-line
+    elementType: shape
+    bounds: [0, 0, 1280, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: page-label
+    elementType: text
+    bounds: [60, 16, 200, 20]
+    content:
+      style: "$caption"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>RENCANA ANALISIS</p>
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 600, 40]
+    content:
+      style: "$title"
+      fontSize: 28
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Rencana Analisis</strong></p>
+  - elementId: title-underline
+    elementType: shape
+    bounds: [60, 96, 80, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: card1-bg
+    elementType: shape
+    bounds: [60, 120, 360, 340]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$surface"
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: card1-icon
+    elementType: icon
+    bounds: [80, 140, 36, 36]
+    iconName: "fas:landmark"
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: card1-title
+    elementType: text
+    bounds: [126, 140, 274, 36]
+    content:
+      style: "$subtitle"
+      fontSize: 20
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Latar Belakang</strong></p>
+  - elementId: card1-text
+    elementType: text
+    bounds: [80, 190, 320, 250]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Indonesia memiliki <strong>38 provinsi</strong> dengan data demografi dan ekonomi yang tersebar di berbagai sumber.</p>
+        <p style="margin-top:10px">Diperlukan platform terpusat untuk analisis regional yang komprehensif dan terintegrasi.</p>
+  - elementId: card2-bg
+    elementType: shape
+    bounds: [440, 120, 360, 340]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$surface"
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: card2-icon
+    elementType: icon
+    bounds: [460, 140, 36, 36]
+    iconName: "fas:triangle-exclamation"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: card2-title
+    elementType: text
+    bounds: [506, 140, 274, 36]
+    content:
+      style: "$subtitle"
+      fontSize: 20
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Problem Statement</strong></p>
+  - elementId: card2-text
+    elementType: text
+    bounds: [460, 190, 320, 250]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Data <strong>PDRB</strong> dan <strong>populasi</strong> per provinsi (2019-2023) tersepat di BPS dan WikiData, sulit diakses secara terintegrasi.</p>
+        <p style="margin-top:10px">Analisis perbandingan regional, tren temporal, dan ketimpangan distribusi memerlukan integrasi data.</p>
+  - elementId: card3-bg
+    elementType: shape
+    bounds: [820, 120, 400, 340]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$surface"
+    border:
+      style: solid
+      width: 1
+      color: "$secondary"
+  - elementId: card3-icon
+    elementType: icon
+    bounds: [840, 140, 36, 36]
+    iconName: "fas:bullseye"
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: card3-title
+    elementType: text
+    bounds: [886, 140, 314, 36]
+    content:
+      style: "$subtitle"
+      fontSize: 20
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Tujuan & Solusi</strong></p>
+  - elementId: card3-text
+    elementType: text
+    bounds: [840, 190, 360, 250]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Membangun platform <strong>Data Lakehouse</strong> skala Enterprise menggunakan:</p>
+        <ul>
+        <li>MinIO (Object Storage)</li>
+        <li>DuckDB (Compute Engine)</li>
+        <li>Arsitektur Medallion (Bronze-Silver-Gold)</li>
+        </ul>
+        <p style="margin-top:8px">Integrasi data dari WikiData dan BPS untuk analitik siap pakai.</p>
+  - elementId: bottom-bar
+    elementType: shape
+    bounds: [0, 710, 1280, 10]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.1
+  - elementId: page-number
+    elementType: text
+    bounds: [1200, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>02</p>

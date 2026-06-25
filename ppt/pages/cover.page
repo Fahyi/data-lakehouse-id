@@ -1,0 +1,63 @@
+pageType: cover
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-line
+    elementType: shape
+    bounds: [0, 0, 1280, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: title-main
+    elementType: text
+    bounds: [140, 180, 1000, 120]
+    content:
+      style: "$title"
+      align: [center, middle]
+      wrap: true
+      text: |
+        <p><strong>Data Lakehouse Platform</strong></p>
+  - elementId: subtitle-line
+    elementType: shape
+    bounds: [540, 320, 200, 2]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: subtitle-text
+    elementType: text
+    bounds: [190, 340, 900, 40]
+    content:
+      style: "$subtitle"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Indonesia Demographics & Economy Analysis</p>
+  - elementId: tagline
+    elementType: text
+    bounds: [340, 400, 600, 30]
+    content:
+      style: "$caption"
+      fontSize: 14
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Proyek Akhir Data Engineering</p>
+  - elementId: icon-data
+    elementType: icon
+    bounds: [604, 460, 72, 72]
+    iconName: "fas:database"
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.15
+  - elementId: bottom-accent
+    elementType: shape
+    bounds: [0, 710, 1280, 10]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+    opacity: 0.1

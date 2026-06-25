@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+*.inspect.ndjson
+outputs/
+*.log
+*.zip
